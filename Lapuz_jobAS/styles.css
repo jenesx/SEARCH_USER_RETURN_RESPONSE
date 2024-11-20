@@ -1,0 +1,90 @@
+/* General Button Styles */
+button, .btn {
+  background-color: #b3d9ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover, .btn:hover {
+  background-color: #99c9ff;
+}
+
+button:active, .btn:active {
+  background-color: #80bfff;
+}
+
+a.button-like {
+  display: inline-block;
+  background-color: #b3d9ff;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+a.button-like:hover {
+  background-color: #99c9ff;
+}
+
+a.button-like:active {
+  background-color: #80bfff;
+}
+
+/* Table Styles */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Times New Roman, sans-serif;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #6f2da8; /* Purple header */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.action-btn {
+  background-color: #6f2da8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.action-btn:hover {
+  background-color: #5a2392;
+}
+
+body {
+  display:flex;
+}
+
+.center-container {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
